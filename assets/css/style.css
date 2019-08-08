@@ -5,3 +5,23 @@ h1 {
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+.projectimg {
+    position: relative;
+    display: inline-block; 
+
+}
+.project {
+    background-color: teal;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 500;
+    position: absolute;
+    left: 0;
+    right: 0;     
+    bottom: 20%;
+    
+}
