@@ -45,5 +45,15 @@ p {
 footer {
     background-color: #666666;
     color: white;
+    size: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;     
+    bottom:0;
+    width:100%;
+    
 }
 /* Background pattern from Toptal Subtle Patterns */
