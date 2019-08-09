@@ -5,6 +5,8 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    background-color:#4aaaa5;
 }
 
 .links {
@@ -42,12 +44,22 @@ p {
     
 }
 
+.deco {
+    background-color: teal;
+    padding: 5px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;   
+}
+
 footer {
     background-color: #666666;
     color: white;
     size: 10px;
     text-align: center;
     padding: 10px;
+    padding-top: 25px;
     margin: 0 auto;
     position: absolute;
     left: 0;
