@@ -1,3 +1,8 @@
+body {
+    background-image: url("../images/asanoha-400px.png");
+    background-repeat: repeat;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -25,3 +30,4 @@ p {
     bottom: 20%;
     
 }
+/* Background pattern from Toptal Subtle Patterns */
