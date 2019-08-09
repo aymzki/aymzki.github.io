@@ -1,34 +1,56 @@
+
+
+/*Background*/
 body {
     background-image: url("../images/asanoha-400px.png");
     background-repeat: repeat;
 }
 
+/*Header including white background*/
+.mainheader {
+    background-color: #ffff;
+    border-color: #cccccc;
+    width: 100%;
+
+}
+
+/*Header text*/
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     background-color:#4aaaa5;
+    
 }
 
+/*The text links at the top of every page*/
 .links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
+    text-align: right;
 }
 
-content {
+/*The white box that surrounds the main things*/
+.content {
     width: 960px;
     background-color: #ffffff;
     border-color: #dddddd;
+    margin: auto; /*This text centers the box*/
+    
 }
 
+/*Any text that is not the header*/
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/*This is the portfolio images*/
 .projectimg {
     position: relative;
     display: inline-block; 
 
 }
+
+/*This is the teal bar that goes over the portfolio images*/
 .project {
     background-color: teal;
     color: white;
@@ -44,15 +66,16 @@ p {
     
 }
 
+/*This is the teal bar at the bottom of the page before footer*/
 .deco {
     background-color: teal;
-    padding: 5px;
-    margin: 0 auto;
-    position: absolute;
+
+    position: relative;
     left: 0;
     right: 0;   
 }
 
+/*Footer goes on every page*/
 footer {
     background-color: #666666;
     color: white;
