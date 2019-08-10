@@ -11,9 +11,8 @@ body {
     background-color: #ffff;
     border-bottom: solid 2px #cccccc;
     width: 100%;
-    top: 0;
     margin: 0px auto;
-    right: 100px;
+
 }
 
 /*Header text*/
@@ -44,7 +43,9 @@ h2 {
     color: #cccccc;
     text-align: right;
     margin-right: 80px;
-    padding: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    bottom: 100px;
 }
 
 /*The white box that surrounds the main things*/
@@ -64,11 +65,13 @@ p {
     font-size: 12px;
     border-width: 5px;
     clear: both;
+    overflow-wrap: break-word;
 }
 
 /*This is for my pic specific for the About page*/
 #myface {
     float: left;
+    padding: 10px;
 }
 
 /*Here begins the portfolio page-specific codes*/
