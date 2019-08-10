@@ -43,7 +43,11 @@ h2 {
     margin-right: 80px;
     padding: 15px;
     margin-bottom: 15px;
-    bottom: 100px;
+    margin-right: 150px;
+    width: 90%;
+    float: right;
+    position: absolute;
+    top: 10px;
 }
 
 /*The white box that surrounds the main things*/
@@ -51,11 +55,14 @@ h2 {
     width: 960px;
     height: auto;
     background-color: #ffffff;
-    border-color: #dddddd;
-    border-width: 10px; /*Is this even valid?*/
+    border-color: #bb2424;
+    border-width: 10px; 
     margin: auto; /*This text centers the box*/
     padding: 25px;
-    box-sizing: border-box
+    box-sizing: border-box;
+    position: relative;
+    top: 20px;
+    
     
 }
 
@@ -67,6 +74,8 @@ p {
     border-width: 20px;
     word-wrap: break-word;
     overflow: auto;
+    line-height: 1.5;
+    padding: 10px;
 }
 
 /*This is for my pic specific for the About page*/
