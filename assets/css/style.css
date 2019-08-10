@@ -19,6 +19,12 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     background-color:#4aaaa5;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    bottom-margin: 0;
+    top-margin: 0;
+   
     
 }
 
@@ -32,7 +38,7 @@ h2 {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
     text-align: right;
-    margin-right: 60px;
+    margin-right: 80px;
     padding: 10px;
 }
 
@@ -50,6 +56,7 @@ h2 {
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border-width: 5px;
+    clear: both;
 }
 
 /*This is for my pic specific for the About page*/
