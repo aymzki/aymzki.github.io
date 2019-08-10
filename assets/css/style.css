@@ -86,6 +86,10 @@ p {
 }
 
 /*Here begins the portfolio page-specific codes*/
+/*This adjusts the padding for the table*/
+th, td {
+    padding: 15px;
+}
 /*This is the portfolio images*/
 .projectimg {
     position: relative;
@@ -106,7 +110,7 @@ p {
     left: 0;
     right: 0;     
     bottom: 20%;
-    
+
 }
 
 /*Here begins the code for the Contacts page*/
