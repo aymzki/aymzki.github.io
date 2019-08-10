@@ -18,19 +18,22 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
+    font-size: 24px;
     background-color:#4aaaa5;
     width: 30%;
     text-align: center;
-    padding: 10px;
-    bottom-margin: 0;
-    top-margin: 0;
-   
+    padding: 15px;
+    margin: 0;
+    
     
 }
 
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
     color: #4aaaa5;
+    padding: 10px;
+    margin: 0;
 }
 
 /*The text links at the top of every page*/
@@ -49,6 +52,7 @@ h2 {
     border-color: #dddddd;
     border-width: 10px; /*Is this even valid?*/
     margin: auto; /*This text centers the box*/
+    padding: 25px;
     
 }
 
