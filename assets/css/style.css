@@ -73,7 +73,7 @@ p {
     padding: 20px;
     text-align: center;
     margin: 0 auto;
-    z-index: 500;
+    z-index: 200;
     position: absolute;
     left: 0;
     right: 0;     
@@ -127,18 +127,21 @@ input[type=button], input[type=submit], input[type=reset] {
 /*This is the teal bar at the bottom of the page before footer*/
 .deco {
     background-color: teal;
-
+    margin: 0 auto;
     position: relative;
     left: 0;
-    right: 0;   
+    right: 0;
+    width: 100%;  
+    
 }
 
 /*Footer goes on every page*/
 footer {
     background-color: #666666;
     color: white;
-    size: 10px;
+    size: 8px;
     text-align: center;
+    z-index: 2000;
     padding: 10px;
     padding-top: 25px;
     margin: 0 auto;
@@ -147,6 +150,7 @@ footer {
     right: 0;     
     bottom:0;
     width:100%;
-    
+    border-top: solid 10px teal;
+}   
 }
 /* Background pattern from Toptal Subtle Patterns */
