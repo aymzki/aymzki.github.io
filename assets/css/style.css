@@ -25,6 +25,9 @@ h1 {
     text-align: center;
     padding: 15px;
     margin: 0; 
+    position: relative;
+    left: 100px;
+    
 }
 
 h2 {
@@ -36,6 +39,8 @@ h2 {
 }
 
 /*The text links at the top of every page*/
+a:hover { color: pink; }
+
 .links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #cccccc;
