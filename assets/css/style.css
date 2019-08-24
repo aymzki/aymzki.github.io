@@ -60,7 +60,7 @@ a:hover { color: pink; }
     width: 960px;
     height: auto;
     background-color: #ffffff;
-    border-color: #bb2424;
+    border-color: #dddddd;
     border-width: 10px; 
     margin: auto; /*This text centers the box*/
     padding: 25px;
@@ -117,6 +117,7 @@ th, td {
     bottom: 20%;
 
 }
+
 
 /*Here begins the code for the Contacts page*/
 .container {
