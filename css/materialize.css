@@ -36,6 +36,16 @@ responsive-img {
   opacity: 0.7;
 }
 
+/*Icon Tweaking FontAwesome */
+.icon {
+  position: relative;
+  margin-right: 16px;
+  overflow: hidden;
+  left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 
 /*Everything in the Materialize Framework*/ 
 .materialize-red {
