@@ -50,7 +50,7 @@ responsive-img {
 @media (max-width: 640px) {
 #landing {
   height: 100%;
-  background-image: url('../images/portfoilopic.jpg');
+  background-image: url('../images/portfoilobg.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
