@@ -7,12 +7,11 @@
 #landing{
   height: 100vh;
   background-image: url('../images/portfoliopic.jpg');
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -1;
-
 }
 #mainText{
   margin-top: 30vh;
@@ -21,7 +20,7 @@
 	border-radius: 10px;
 }
 responsive-img {
-  width: 30%;
+  width: 20%;
 }
 /* Style all font awesome icons */
 .fa {
@@ -45,6 +44,19 @@ responsive-img {
   left: 15px;
   display: inline-block;
   vertical-align: middle;
+}
+
+/*This media query is for smartphone size*/
+@media (max-width: 640px) {
+#landing {
+  height: 100%;
+  background-image: url('../images/portfoliopic.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
 }
 
 
