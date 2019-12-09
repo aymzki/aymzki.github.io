@@ -49,7 +49,7 @@ responsive-img {
 /*This media query is for smartphone size*/
 @media (max-width: 640px) {
 #landing {
-  height: 50%;
+  height: 100vh;
   background-image: url('../images/portfolio_bg.jpg');
   background-position: center center;
   background-size: cover;
