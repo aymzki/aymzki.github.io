@@ -5,14 +5,15 @@
  */
 /*Everything that I added later*/
 #landing{
-  height: 100vh;
-  background-image: url('../images/portfoliopic.jpg');
-  background-position: center center;
+  height: 100%;
+  background-image: url('../images/IMG_2999.JPG');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   z-index: -1;
 }
+
 #mainText{
   margin-top: 30vh;
 }
@@ -44,6 +45,7 @@ responsive-img {
   left: 15px;
   display: inline-block;
   vertical-align: middle;
+  font-weight: 900;
 }
 
 /*This media query is for smartphone size
