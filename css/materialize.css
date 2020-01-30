@@ -48,6 +48,10 @@ responsive-img {
   font-weight: 900;
 }
 
+.card {
+height:auto;
+}
+
 /*This media query is for smartphone size
 @media (max-width: 640px) {
 #landing {
