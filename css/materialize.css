@@ -5,9 +5,6 @@
  */
 /*Everything that I added later*/
 
-.marketresearchfp{
-  @extend .blue, .lighten-4;
-}
 
 #landing{
   height: 100%;
